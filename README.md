@@ -1,2 +1,2 @@
-# Portfolio_us
-Sumana &amp; Aniket 
+# portfolio_us
+ Aniket and Sumana
