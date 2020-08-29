@@ -93,7 +93,26 @@
 
     <!--Team Start-->
     <div class="container">
-    <div class="card-wrap">
+        <div class="box" style="margin-left: 10%;">
+            <div class="imgBx">
+                <img src="assets/images/aniket.jpg" alt="">
+            </div>
+            <div class="contentBx">
+                <h2>Aniket Pal</h2>
+                <p>Buuuuu &hearts;</p>
+            </div>
+        </div>
+        
+        <div class="box" style="margin-left: 10%;">
+            <div class="imgBx">
+                <img src="assets/images/sumana.jpg" alt="">
+            </div>
+            <div class="contentBx">
+                <h2>Sumana Basu</h2>
+                <p>Gublu &hearts;</p>
+            </div>
+        </div>
+    <!--<div class="card-wrap">
         <div class="card-column">
             <div class="card-inner">
                 <div class="member">
@@ -119,7 +138,7 @@
                   </div>
               </div>
           </div>
-      </div>
+      </div>-->
     </div>
     <!--Team End-->
 
@@ -504,6 +523,15 @@
     
     <!-- Global Init -->
     <script src="assets/js/custom.js"></script>
+
+    <!--Vanilla Tilt-->
+    <script type="text/javascript" src="assets/js/vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".box"), {
+            max: 25,
+            speed: 400
+        });
+    </script>
 
   </body>
 </html>
