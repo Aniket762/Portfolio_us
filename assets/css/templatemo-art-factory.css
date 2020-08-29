@@ -284,6 +284,11 @@ button.main-button:hover {
   font-size: 17px;
   text-align: center;
 }
+.heading{
+  text-align: center; 
+  margin: 2% 0 2% 0; 
+  color: rgb(214, 200, 9);
+}
 
 /* 
 ---------------------------------------------
@@ -918,7 +923,6 @@ about
 
 #about {
   padding: 120px 0px;
-  border-bottom: 1px solid #eee;
 }
 
 @media (max-width: 765px) {
@@ -974,6 +978,31 @@ about
   font-size: 21px;
   font-weight: 500;
   margin-bottom: 20px;
+}
+/* 
+---------------------------------------------
+Projects
+--------------------------------------------- 
+*/
+
+.projects {
+  text-align: center;
+}
+
+
+.projects__img {
+  box-shadow: 0 4px 25px rgba(14, 36, 49, .15);
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+.projects__img img {
+  transition: 1s;
+  cursor: pointer;
+}
+
+.projects__img img:hover {
+  transform: scale(1.1);
 }
 
 /* 
