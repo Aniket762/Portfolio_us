@@ -20,6 +20,8 @@
     </head>
     
     <body>   
+        
+    <div id="progressbar"></div>
     <!-- ***** Header Area Start ***** -->
     <header class="header-area header-sticky">
         <div class="container">
@@ -521,6 +523,18 @@
             max: 25,
             speed: 400
         });
+    </script>
+
+    <!--ProgressBar-->
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script type="text/javascript">
+        $(window).scroll(function(){
+            var scroll=$(window).scrollTop(),
+            dh=$(document).height(),
+            wh=$(window).height();
+            scrollPercent=(scroll/(dh-wh))*100;
+            $('#progressbar').css('height',scrollPercent+'%');
+        })
     </script>
 
   </body>

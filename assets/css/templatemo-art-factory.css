@@ -1514,6 +1514,21 @@ footer .copyright {
 
 /* 
 ---------------------------------------------
+progressbar
+--------------------------------------------- 
+*/
+#progressbar{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 15px;
+  border-radius: 10px;
+  background: linear-gradient(to top, #fcb045, #fd1d1d, #833ab4);
+  z-index: 999999
+}
+/* 
+---------------------------------------------
 preloader
 --------------------------------------------- 
 */
