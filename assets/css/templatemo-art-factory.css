@@ -718,6 +718,34 @@ header
 welcome
 --------------------------------------------- 
 */
+/* Sponsors */
+#sponsor{
+    margin: 5%;
+}
+.our-sponsor {
+	text-align: center;
+}
+.our-sponsor .pic{
+    border-top: none;
+    overflow: hidden;
+    transition: all 0.5s ease 0s;
+}
+.our-sponsor:hover .pic{    
+    border-bottom-color: #1c142b;
+    border-radius: 0 50%;
+}
+
+@media only screen and (max-width: 990px){
+    .our-sponsor{ margin-bottom: 30px; }
+}
+@media only screen and (max-width: 768px){
+    .our-sponsor .pic{
+        height: 300px;
+        width: 300px;
+        margin: 0 5% 0 15%;
+    }
+}
+/* Sponsors end */
 #welcome {
   overflow: hidden;
   position: relative;
